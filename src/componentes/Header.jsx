@@ -4,10 +4,13 @@ import Navbar from "./navbar/Navbar";
 
 function Header() {
   return (
-    <header className="header">
-      <Navbar />
-     
-    </header>
+      <div className='bg-gray-900 flex justify-center'>
+        <div className="bg-gray-900 shadow-md ">
+          <div className="container mx-auto py-4">
+            <Navbar />
+          </div>
+        </div>
+      </div>
   );
 }
 
