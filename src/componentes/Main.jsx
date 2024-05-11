@@ -3,7 +3,7 @@ import FotoTopaz from '../imagenes/FotoTopaz.jpeg'
 
 function Main() {
   return (
-    <div className="bg-gray-900 flex justify-center items-center h-screen">
+    <div  id="about" className="bg-gray-900 flex justify-center items-center h-screen">
       <div className=" bg-slate-500  w-1/2 p-8 rounded-lg shadow-lg text-emerald-50"> 
         <h2 className="text-xl font-bold mb-4">Hi! My name is Vicente Cersósimo</h2>
         <p className="">
