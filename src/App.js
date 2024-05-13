@@ -15,13 +15,10 @@ const WithHeaderLogin = ({ children }) => (
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Routes>
-          <Route path="/" element={<WithHeaderLogin><Main /><Projects/></WithHeaderLogin>} /> 
-        </Routes>
-      </div>
-    </Router>
+    <>
+
+    <Main/>
+    </>
   );
 }
 

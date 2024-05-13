@@ -3,11 +3,10 @@ import Navlinks from "./navlink/NavLinks";
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-900 ">
-      <div className="container mx-auto">
+      <div className="container  pt-3">
         <Navlinks />
       </div>
-    </nav>
+    
   );
 };
 
