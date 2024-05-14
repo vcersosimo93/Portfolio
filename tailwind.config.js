@@ -5,11 +5,14 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    screens: {
-      'sm': '640px', // Dispositivos pequeños, como móviles
-      'md': '768px', // Dispositivos medianos, como tablets
-      'lg': '1024px', // Dispositivos grandes, como laptops
-      'xl': '1280px', // Dispositivos extra grandes, como pantallas de escritorio
+    fontSize: {
+      sm: '0.8rem',
+      base: '1rem',
+      xl: '1.25rem',
+      '2xl': '1.563rem',
+      '3xl': '1.953rem',
+      '4xl': '2.441rem',
+      '5xl': '3.052rem',
     }
   },
   plugins: [],

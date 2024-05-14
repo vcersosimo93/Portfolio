@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from "./navbar/Navbar";
 
 function Header() {
+
   return (
     <div className='flex justify-between items-center'>
       <div className='p-2'>

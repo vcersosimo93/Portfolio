@@ -23,22 +23,22 @@ function Main() {
         <Header />
         <div
           id="about"
-          className="flex flex-col lg:flex-row justify-center items-center lg:min-h-screen"
+          className="flex flex-col lg:flex-row justify-center items-center lg:min-h-screen lg:mt-0 md:mt-10 sm:mt-10"
         >
-          <div className="lg:w-1/2 text-center lg:text-left ">
-            <p className=" text-amber-50 font-sans font-semibold text-5xl ">
+          <div className="lg:w-1/2 text-center lg:text-left">
+            <p className="text-amber-50 font-sans font-semibold text-base sm:text-3xl md:text-4xl xl:text-5xl">
               Hi There!
             </p>
-            <p className="pt-5 text-5xl text-amber-50 font-sans font-semibold">
+            <p className="pt-5 sm:text-3xl md:text-4xl xl:text-5xl text-amber-50 font-sans font-semibold">
               I'm Vicente Cersósimo
             </p>
-            <p className="pt-5 mb-10 text-5xl text-amber-50 font-sans font-semibold">
+            <p className="pt-5 mb-10 sm:text-3xl md:text-4xl xl:text-5xl text-amber-50 font-sans font-semibold">
               Software Developer
             </p>
             <a
               href={resume}
               download="Vicente Cersósimo CV"
-              className="inline-block px-4 py-2 mr-2 text-white font-sans font-semibold rounded-lg border border-amber-50 hover:bg-amber-50 hover:text-gray-950 mb-4"
+              className="inline-block px-4 py-2 mr-2  text-white font-sans font-semibold rounded-lg border border-amber-50 hover:bg-amber-50 hover:text-gray-950 mb-4"
             >
               Download CV
             </a>
@@ -63,11 +63,11 @@ function Main() {
               </a>
             </div>
           </div>
-          <div className="lg:w-1/5 md:w-1/4 sm:w-1/8">
+          <div className="xl:w-1/5  lg:w-1/5 md:w-1/4 sm:w-1/3 xl:mt-0  lg:mt-0 md:mt-10 sm:mt-10">
             <img
               src={FotoTopaz}
               alt="Foto de perfil"
-              className="rounded-full"
+              className="rounded-full base:w-1/2 xl:w1/5"
             />
           </div>
         </div>

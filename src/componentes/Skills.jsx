@@ -5,7 +5,7 @@ import { techStack } from "../constants.js";
 function Skills() {
   return (
     <div className="flex justify-center flex-col items-center lg:min-h-screen" id="skills">
-      <h2 className="text-center text-amber-50 font-sans font-semibold text-4xl mb-8">
+      <h2 className="text-center text-amber-50 font-sans font-semibold sm:text-3xl md:text-4xl xl:text-5xl mb-8">
         Technologies and Tools
       </h2>
       <div>
