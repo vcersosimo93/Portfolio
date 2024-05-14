@@ -1,22 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Header from './componentes/Header.jsx';
 import Main from './componentes/Main.jsx';
-import Projects from './componentes/Projects.jsx';
+import { useEffect } from 'react';
 
 
-const WithHeaderLogin = ({ children }) => (
-  <>
-    <Header />
-    {children}
-  </>
-);
 
 function App() {
+
+  useEffect(() => {
+    document.title = 'Vicente Cersósimo';
+  }, []);
+
   return (
     <>
-
     <Main/>
     </>
   );
