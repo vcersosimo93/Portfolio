@@ -23,16 +23,16 @@ function Main() {
         <Header />
         <div
           id="about"
-          className="flex flex-col lg:flex-row justify-center items-center lg:min-h-screen lg:mt-0 md:mt-10 sm:mt-10"
+          className="flex flex-col lg:flex-row justify-center items-center lg:min-h-screen sm:mt-10 md:mt-10 lg:mt-0 xl:mt-0 mt-10"
         >
           <div className="lg:w-1/2 text-center lg:text-left">
-            <p className="text-amber-50 font-sans font-semibold text-base sm:text-3xl md:text-4xl xl:text-5xl">
+            <p className="text-amber-50 font-sans font-semibold sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-3xl">
               Hi There!
             </p>
-            <p className="pt-5 sm:text-3xl md:text-4xl xl:text-5xl text-amber-50 font-sans font-semibold">
+            <p className="pt-5 sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-3xl text-amber-50 font-sans font-semibold">
               I'm Vicente Cersósimo
             </p>
-            <p className="pt-5 mb-10 sm:text-3xl md:text-4xl xl:text-5xl text-amber-50 font-sans font-semibold">
+            <p className="pt-5 mb-10 sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-3xl text-amber-50 font-sans font-semibold">
               Software Developer
             </p>
             <a
@@ -63,11 +63,11 @@ function Main() {
               </a>
             </div>
           </div>
-          <div className="xl:w-1/5  lg:w-1/5 md:w-1/4 sm:w-1/3 xl:mt-0  lg:mt-0 md:mt-10 sm:mt-10">
+          <div className="xl:w-1/5  lg:w-1/5 md:w-1/3 sm:w-1/3  w-1/3 xl:mt-0  lg:mt-0 md:mt-10 sm:mt-10 mt-10">
             <img
               src={FotoTopaz}
               alt="Foto de perfil"
-              className="rounded-full base:w-1/2 xl:w1/5"
+              className="rounded-full  "
             />
           </div>
         </div>

@@ -5,10 +5,10 @@ import valora from "../imagenes/valoraProject.png";
 function Projects() {
   return (
     <div className="flex justify-center flex-col items-center mb-10 font-sans text-amber-50 lg:min-h-screen lg:mt-0 md:mt-20 sm:mt-20">
-      <h2 className="text-center font-semibold text-base sm:text-3xl md:text-4xl xl:text-5xl mb-8">
+      <h2 className="text-center font-semibold sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-3xl  xl:mt-0 lg:mt-0 mt-10">
         Projects
       </h2>
-      <p className="text-center font-sans font-extralight text-3xl mb-8 sm:text-2xl md:text-2xl xl:text-3xl">
+      <p className="text-center font-sans font-extralight   sm:text-3xl md:text-3xl lg:text-3xl xl:text-3xl text-xl mb-8">
         Here are a few projects I've worked on recently
       </p>
       <div className="w-full max-w-screen-lg flex flex-col lg:flex-row justify-between">
