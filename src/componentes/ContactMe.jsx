@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactMe() {
   return (
-    <div className="flex justify-center font-sans font-semibold xl:mt-24  lg:mt-24 md:mt-40 sm:mt-24  " id="contact">
+    <div className="flex justify-center font-sans font-semibold xl:mt-24  lg:mt-24 md:mt-40 sm:mt-24 mt-24 " id="contact">
       <div className="max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl">
         <p className="text-center sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-3xl text-amber-50 font-sans font-semibold pb-5">
           Contact Me
